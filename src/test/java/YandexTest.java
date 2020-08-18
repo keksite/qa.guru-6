@@ -9,8 +9,6 @@ import static com.codeborne.selenide.Selenide.open;
 public class YandexTest {
     @Test
     void selenideSearchTest() {
-
-        Configuration.browser = "org.openqa.selenium.safari.SafariDriver";
         // Открыть google
         open("https://yandex.ru");
 
